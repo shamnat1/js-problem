@@ -14,7 +14,7 @@ Welcome to the Softgames "Studio Business Services" Teams (SBS) assessment test.
 ## What is contained in this project
 
 1. In the src folder you find
-    1. JS files that are empty, and you should fill them so the corresponding test succeed [src/*.js]
+    1. JS files that are empty, and you should fill them in a way that the corresponding test succeed [src/*.js]
     1. Test that should be executed when JEST is set up (see your tasks above) [src/*.test.js]
     
 
@@ -24,4 +24,3 @@ Welcome to the Softgames "Studio Business Services" Teams (SBS) assessment test.
     1. Link to your fork of the test project
     1. Link to the merge request you created
     1. Any text you want to give us on the way of checking you result
-    
