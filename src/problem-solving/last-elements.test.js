@@ -1,7 +1,3 @@
-/**
- * get last n data element from the nested object
- * 
- */
 
 const getLastNumbers = require("./last-elements.js");
 

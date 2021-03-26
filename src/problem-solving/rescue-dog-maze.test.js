@@ -1,28 +1,4 @@
-/**
- * Please find a path to rescue the princess (p) from the maze
- * The maze is a 2 dimensional array which path is " " (space) and blocks are "#"
- * you can move left, right, top, up
- *
- * return path should be the array of position numbers order from start to reach princess
- * what is the position number?
- * It is the number we assign for each cell in the matrix from left to right and top to bottom in an incremented value.
- * which start from 0 to (size of the matrix - 1)
- *
- * example for calculating position
- * matrix size 8 x 6 (row x column)
- * a[0][1] = 1
- * a[1][1] = 7
- * a[7][5] = 47
- *
- * matrix -> position value
- *  ###        012
- *  ###   =>   345
- *  ###        678
- *
- * If you cannot find the path please return undefined
- */
-
-const rescuePrincessPath = require("./rescue-princess-maze.js");
+const rescuePrincessPath = require("./rescue-dog-maze.js");
 
 describe("maze", () => {
   it("should return path for rescue princess maze1", () => {
@@ -34,7 +10,7 @@ describe("maze", () => {
       ["#", "#", " ", " ", "#", "#"],
       ["#", "#", "#", " ", " ", " "],
       ["#", "#", "#", "#", "#", " "],
-      ["#", "#", "#", "#", "#", "p"],
+      ["#", "#", "#", "#", "#", "d"],
     ];
     const rows = maze.length;
     const columns = maze[0].length;
@@ -58,7 +34,7 @@ describe("maze", () => {
       [" ", " ", " ", "#", " ", " "],
       ["#", "#", "#", "#", " ", "#"],
       ["#", "#", "#", "#", " ", "#"],
-      ["#", "#", "#", "p", " ", "#"],
+      ["#", "#", "#", "d", " ", "#"],
     ];
 
     const rows = maze.length;
@@ -84,7 +60,7 @@ describe("maze", () => {
       ["#", "#", "#", "#", " ", " "],
       ["#", "#", "#", " ", " ", "#"],
       ["#", "#", "#", " ", "#", "#"],
-      ["#", "#", "p", " ", "#", "#"],
+      ["#", "#", "d", " ", "#", "#"],
     ];
 
     const rows = maze.length;
@@ -110,7 +86,7 @@ describe("maze", () => {
       ["#", "#", "#", "#", " ", " "],
       ["#", "#", "#", " ", " ", "#"],
       ["#", "#", "#", "#", "#", "#"],
-      ["#", "#", "p", "#", "#", "#"],
+      ["#", "#", "d", "#", "#", "#"],
     ];
 
     const rows = maze.length;
