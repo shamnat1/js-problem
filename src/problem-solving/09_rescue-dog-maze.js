@@ -15,5 +15,7 @@
  * a[1][1] = 7
  * a[7][5] = 47
  *
- * If you cannot find the path please return undefined
+ * If you cannot find the path please return undefined.
+ *
+ * See the test if you have questions.
  */

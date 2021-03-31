@@ -1,5 +1,5 @@
 /**
- * checking to see if the given string can be rearranged into a palindrome.
+ * Check if the given string is an anagram of a palindrom
  *
  * Example
  * s = 'aabbccdd'
