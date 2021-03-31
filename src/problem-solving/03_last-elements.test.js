@@ -1,7 +1,6 @@
+import { getLastNumbers } from './03_last-elements.js';
 
-const getLastNumbers = require("./last-elements.js");
-
-describe("last-elements", () => {
+describe('last-elements', () => {
   const payload = {
     data: 25,
     next: {
@@ -33,23 +32,23 @@ describe("last-elements", () => {
     },
   };
 
-  it("getting last 3 data from the ", () => {
+  it('getting last 3 data from the ', () => {
     expect(getLastNumbers(payload, 3)).toEqual([44, 36, 22]);
   });
 
-  it("getting last 0 data from the ", () => {
+  it('getting last 0 data from the ', () => {
     expect(getLastNumbers(payload, 0)).toEqual([]);
   });
 
-  it("getting last 1 data from the ", () => {
+  it('getting last 1 data from the ', () => {
     expect(getLastNumbers(payload, 1)).toEqual([22]);
   });
 
-  it("getting last 10 data from the ", () => {
+  it('getting last 10 data from the ', () => {
     expect(getLastNumbers(payload, 10)).toEqual([25, 34, 67, 98, 89, 78, 43, 44, 36, 22]);
   });
 
-  it("getting last 15 data from the ", () => {
+  it('getting last 15 data from the ', () => {
     expect(getLastNumbers(payload, 15)).toEqual([25, 34, 67, 98, 89, 78, 43, 44, 36, 22]);
   });
 });

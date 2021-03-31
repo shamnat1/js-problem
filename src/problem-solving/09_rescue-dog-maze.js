@@ -1,6 +1,6 @@
 /**
  * Please find a path to rescue the dog (d) from the maze
- * The maze is a 2 dimensional array which path is " " (space) and blocks are "#"
+ * The maze is a 2 dimensional array which path is ' ' (space) and blocks are '#'
  * you can move left, right, top, up
  *
  * return path should be the array of position numbers order from start to reach dog.
