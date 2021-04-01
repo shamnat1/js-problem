@@ -4,11 +4,12 @@ Welcome to the Softgames "Studio Business Services" Teams (SBS) assessment test.
 
 ## What are you tasks
 
-1. Fork this project for yourself to work on
+1. Clone this project for yourself to work on [DO NOT FORK IT]
 1. Setup JEST to run the already existing test
 1. Write code in the .js files so that the tests execute successfully
+1. Create your own GitHub repository and push code to this one
+   1. Please do not have Softgames or SG in the name of your project
 1. Prepare GitHub CI so that the tests are executed when commits are pushed to GitHub
-1. Prepare merge request back to this project
 1. BONUS: Add general stuff you feel each JS project should have
 
 ## What is contained in this project
@@ -21,6 +22,5 @@ Welcome to the Softgames "Studio Business Services" Teams (SBS) assessment test.
 ## How to deliver your test back to Softgames
 
 1. Respond to the message that we sent you with the test. Include:
-    1. Link to your fork of the test project
-    1. Link to the merge request you created
+    1. Link to your GitHub repository
     1. Any text you want to give us on the way of checking you result
