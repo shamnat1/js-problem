@@ -1,4 +1,4 @@
-import { count } from './07_concurrency.js';
+import { count } from './04_async-counter.js';
 
 const ms = 100;
 

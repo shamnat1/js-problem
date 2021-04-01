@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { isPalindromePossible } from './04_anagram-palindrome.js';
+import { isPalindromePossible } from './05_anagram-palindrome.js';
 
 describe('anagram-palindrome', () => {
   it('should return true for possible to make palindrome', () => {

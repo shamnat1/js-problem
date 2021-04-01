@@ -1,4 +1,4 @@
-import answers from './05_regexp.js';
+import answers from './03_regexp.js';
 
 describe('regexp', () => {
     it('you should be able to detect a number in a string', () => {

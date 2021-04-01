@@ -1,4 +1,4 @@
-import { rescuePrincessPath } from './09_rescue-dog-maze.js';
+import { rescuePrincessPath } from './07_rescue-dog-maze.js';
 
 describe('maze', () => {
   it('should return path for rescue princess maze1', () => {
