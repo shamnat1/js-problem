@@ -25,6 +25,7 @@ function testCount({ startCount, endCount, done, cancelAfter }) {
           const topBoard = bottomBorder + 10 * run;
           expect(timeDiff).toBeGreaterThanOrEqual(bottomBorder);
           expect(timeDiff).toBeLessThanOrEqual(topBoard);
+
           if (doneTimeout) {
               clearTimeout(doneTimeout);
               expect('Never to reach this point').toEqual('Callback called after end');
@@ -33,7 +34,7 @@ function testCount({ startCount, endCount, done, cancelAfter }) {
           if (cancelAfter) {
               expect(count).toBeLessThanOrEqual(cancelAfter);
           }
-          if (count === endCount) {
+          if (topBoard === endCount) {
               triggerFinish();
               return;
           }
@@ -54,7 +55,7 @@ describe('counter', () => {
         testCount({ startCount: 1, endCount: 5, done });
     });
 
-    it('should provide a method to cancel the counting', function (done) {
+   it('should provide a method to cancel the counting', function (done) {
         testCount({ startCount: 1, endCount: 5, done, cancelAfter: 3 });
     });
 });
